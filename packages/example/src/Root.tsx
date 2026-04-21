@@ -127,6 +127,7 @@ import {AnimatedImages} from './AnimatedImage/Avif';
 import Amplify from './AudioTesting/Amplify';
 import {BrowserTest} from './BrowserTest';
 import {EdgeBlur} from './EdgeBlur/EdgeBlur';
+import {DutchCourseAd} from './DutchCourseAd';
 import {Empty} from './Empty';
 import {JumpCuts, SAMPLE_SECTIONS, calculateMetadataJumpCuts} from './JumpCuts';
 import {LightLeakExample} from './LightLeak';
@@ -1836,6 +1837,14 @@ export const Index: React.FC = () => {
 				height={1080}
 				fps={30}
 				durationInFrames={500}
+			/>
+			<Composition
+				id="DutchCourseAd"
+				component={DutchCourseAd}
+				width={1080}
+				height={1920}
+				fps={30}
+				durationInFrames={450}
 			/>
 			<Composition
 				id="TikTokTextBoxes"
